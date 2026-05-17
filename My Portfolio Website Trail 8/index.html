@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Narayan - Video Editing Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-trail"></div>
+    <!-- Global Looping Background Video -->
+    <video id="global-bg-video" autoplay loop muted playsinline>
+        <source src="assets/Glittr bg.mp4" type="video/mp4">
+    </video>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <span>RN</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#hero" class="nav-item">Home</a>
+            <a href="#works-start" class="nav-item">Works</a>
+            <a href="#contact" class="nav-item">Contact</a>
+        </nav>
+        <div class="talk-button">
+            <a href="mailto:rajnarayan4244@gmail.com" class="btn-primary">Talk to me</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section hero-section">
+            <!-- Decorative Background Elements -->
+            <div class="bg-blur blur-1"></div>
+            <div class="bg-blur blur-2"></div>
+
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="glitch-text" data-text="RAJ NARAYAN">RAJ NARAYAN</h1>
+                <p class="hero-description">
+                    For the past <strong>5 years</strong>, I've been transforming raw footage into high-retention
+                    cinematic experiences. I don't just edit videos—I craft visual stories that elevate brands, capture
+                    attention, and drive real engagement.
+                </p>
+
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">50M+</span>
+                        <span class="stat-label">Views</span>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <span class="service-tag">Video Editing</span>
+                    <span class="service-tag">Motion Design</span>
+                    <span class="service-tag">Content Strategy</span>
+                </div>
+            </div>
+
+            <div class="hero-portrait floating">
+                <div class="neon-circle"></div>
+                <!-- Placeholder for user portrait -->
+                <div class="portrait-placeholder">
+                    <img src="assets/profile.jpg"
+                        onerror="this.onerror=null; this.src='https://via.placeholder.com/400x500/111/00ff88?text=Raj+Narayan'"
+                        alt="Raj Narayan Portrait">
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll down</span>
+            </div>
+        </section>
+
+        <!-- What do you do Section -->
+        <section id="what-do-you-do" class="section interaction-section">
+            <h2 class="section-title">What do you do?</h2>
+            <div class="interactive-buttons">
+                <button class="btn-mega interact-btn" data-target="work-page-2">
+                    <span class="btn-icon">📈</span>
+                    <span class="btn-text">Trading Creator</span>
+                </button>
+                <button class="btn-mega interact-btn" data-target="work-page-3">
+                    <span class="btn-icon">🏘️</span>
+                    <span class="btn-text">Realtors</span>
+                </button>
+                <button class="btn-mega interact-btn" data-target="work-page-1">
+                    <span class="btn-icon">🌟</span>
+                    <span class="btn-text">Others</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Works Start Marker -->
+        <div id="works-start"></div>
+
+        <!-- Work Page 1 -->
+        <section id="work-page-1" class="section work-section">
+            <h2 class="work-title">Some of my best works</h2>
+            <div class="work-grid">
+                <!-- 4 1920x1080 videos arranged in 2x2 grid -->
+                <div class="grid-2x2">
+                    <div class="video-container landscape">
+                        <iframe src="https://www.youtube.com/embed/QXAjdWAk7Ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container landscape">
+                        <iframe src="https://www.youtube.com/embed/giqGQJMNXJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container landscape">
+                        <iframe src="https://www.youtube.com/embed/0V6743L3X0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container landscape">
+                        <iframe src="https://www.youtube.com/embed/Ny43aFYtNWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- 3 1080x1920 videos arranged horizontally -->
+                <div class="row-horizontal">
+                    <div class="video-container portrait">
+                        <iframe src="https://www.youtube.com/embed/fBbTaL9cx0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container portrait">
+                        <iframe src="https://www.youtube.com/embed/_cdzTIE8PG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container portrait">
+                        <iframe src="https://www.youtube.com/embed/mzXjqUJyp-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Page 2 -->
+        <section id="work-page-2" class="section work-section">
+            <h2 class="work-title">Trading edits</h2>
+            <div class="work-grid">
+                <div class="grid-2x2">
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/Ny43aFYtNWw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/Ov3rVmprvzc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/gqZgaNCTQAM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/jgRcfgjWtk8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+                <div class="grid-3x2">
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/OHXpHV6uT3c"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/G5ICEkCNwpQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/x9rZ0aKhz7M"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/t7GpHel_Oqk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/mzXjqUJyp-U"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/i4ip8OF4wSk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Page 3 -->
+        <section id="work-page-3" class="section work-section">
+            <h2 class="work-title">Realtors Collection</h2>
+            <div class="work-grid">
+                <div class="row-horizontal">
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/w7-vMY1RDVM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/R5OoxvfXIcQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/D7S0x2xYGUk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Page 4 -->
+        <section id="work-page-4" class="section work-section">
+            <h2 class="work-title">Motion for brands</h2>
+            <div class="work-grid">
+                <div class="row-horizontal">
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/fBbTaL9cx0w"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/3CFUSJn8b8E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/n1mmmDTYaGA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Page 5 -->
+        <section id="work-page-5" class="section work-section">
+            <h2 class="work-title">Documentary Edits</h2>
+            <div class="work-grid">
+                <div class="row-horizontal-2">
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/bUzaFj9dTEk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/giqGQJMNXJU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Page 6 -->
+        <section id="work-page-6" class="section work-section">
+            <h2 class="work-title">Storytelling Videos</h2>
+            <div class="work-grid">
+                <div class="row-horizontal-2">
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/Bu75Nc3n9eY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/QXAjdWAk7Ts"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Page 7 -->
+        <section id="work-page-7" class="section work-section">
+            <h2 class="work-title">Cool Intros</h2>
+            <div class="work-grid">
+                <div class="row-horizontal-2">
+                    <div class="video-container landscape"><iframe
+                            src="https://www.youtube.com/embed/Do3ijKXfoV4?si=VaKsRemFiGMBFr4J"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container landscape"><iframe src="https://www.youtube.com/embed/0V6743L3X0M"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Page 8 -->
+        <section id="work-page-8" class="section work-section">
+            <h2 class="work-title">Vertical edits</h2>
+            <div class="work-grid">
+                <div class="row-horizontal">
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/_cdzTIE8PG0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/oEA8xqQW3xk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="video-container portrait"><iframe src="https://www.youtube.com/embed/caLNVGHrt18"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="contact-content">
+                <h2 class="glow-text">Let's grow together</h2>
+                <p>Ready to elevate your content? Drop me a message.</p>
+                <div class="contact-actions">
+                    <div class="contact-wrapper">
+                        <a href="mailto:rajnarayan4244@gmail.com" class="contact-btn mail-btn">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                            </span>
+                            <span class="text">Mail Me</span>
+                        </a>
+                        <span class="raw-contact-subtext selectable">rajnarayan4244@gmail.com</span>
+                    </div>
+                    
+                    <div class="contact-wrapper">
+                        <a href="https://wa.me/917549200409" target="_blank" class="contact-btn wa-btn">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                                </svg>
+                            </span>
+                            <span class="text">WhatsApp</span>
+                        </a>
+                        <span class="raw-contact-subtext selectable">+91 7549200409</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
